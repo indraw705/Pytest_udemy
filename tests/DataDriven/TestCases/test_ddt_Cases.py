@@ -1,5 +1,3 @@
-import pytest
-import jsonpath
 import requests
 import json
 from tests.DataDriven import Library

@@ -3,8 +3,9 @@ import jsonpath
 import requests
 import json
 from tests.DataDriven import Library
+from pytest import mark
 
-
+@mark.api
 def test_add_multiple_students():
     api_url = "https://thetestingworldapi.com/api/studentsDetails"
     f = open(
@@ -28,7 +29,7 @@ def test_add_multiple_students():
         # print(response.text)
         assert response.status_code == 201
 
-
+@mark.api
 def test_maths():
     a = 3
     b = 6

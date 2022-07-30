@@ -1,1 +1,1 @@
-from . import TestCases
+from . import test_ddt_Cases

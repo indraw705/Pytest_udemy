@@ -1,6 +1,3 @@
-import requests
-import json
-import jsonpath
 import openpyxl
 
 

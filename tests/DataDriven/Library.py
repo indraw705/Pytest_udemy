@@ -1,6 +1,4 @@
 import openpyxl
-
-
 class Common:
     def __init__(self, file_name, sheet_name):
         global wb
